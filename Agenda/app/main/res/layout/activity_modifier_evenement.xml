@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Nom de l'événement"/>
+
+    <EditText
+        android:id="@+id/champNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_edittext"
+        android:hint="Nom de l'événement..."
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Description de l'événement"/>
+
+    <EditText
+        android:hint="Décrire l'événement..."
+        android:id="@+id/champDescription"
+        android:background="@drawable/background_edittext"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:maxLines="6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Date de l'événement"/>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_weight="0.5"
+            android:textSize="14sp"
+            android:background="@drawable/background_edittext"
+            android:padding="10dp"
+            android:clickable="false"
+            android:hint="Sélectionner la date..."
+            android:id="@+id/champDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_weight="1.5"
+            android:tint="#0077FF"
+            android:id="@+id/buttonDate"
+            android:src="@android:drawable/ic_menu_my_calendar"
+            android:background="@color/caldroid_transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonValider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_button"
+        android:text="Modifier"
+        android:textAllCaps="false"
+        android:textColor="@color/caldroid_white" />
+
+</LinearLayout>
