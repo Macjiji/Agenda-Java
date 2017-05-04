@@ -4,7 +4,7 @@ Créer votre agenda avec Android Studio et Java. Il vous permettra d'ajouter, mo
 
 ## Pour commencer
 
-Ce projet sera disponible prochainement sur mon blog pour Développeur Android
+Ce projet est disponible sur mon blog de développeur avec toutes les explications sur ce [lien](http://www.androidtavern.com/2017/05/agenda-java/)
 
 ### Pré-requis
 
@@ -12,7 +12,7 @@ Pour utiliser ce projet, vous devez au préalable installer la bibliothèque [Ca
 
 ### Installation
 
-Les étapes pour créer ce projet seront disponibles prochainement sur mon blog pour Développeur Android
+Les étapes pour créer ce projet sont disponibles sur [ce lien](http://www.androidtavern.com/2017/05/agenda-java/)
 
 
 ## Projet crée avec
