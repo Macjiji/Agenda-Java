@@ -1,6 +1,10 @@
-# Agenda CSharp
+<img src="/images/pandjag.png"/>
+
+# AgendaJava
 
 Créer votre agenda avec Android Studio et Java. Il vous permettra d'ajouter, modifier ou supprimer un événement.
+
+<img src="/images/apagj.png"/>
 
 ## Pour commencer
 
